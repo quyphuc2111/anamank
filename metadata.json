@@ -1,0 +1,5 @@
+{
+  "name": "Birthday Cake",
+  "description": "An interactive birthday cake with candles you can blow out.",
+  "requestFramePermissions": ["microphone"]
+}

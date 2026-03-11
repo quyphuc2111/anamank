@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@keyframes flicker {
+  0% { transform: rotate(-1deg); }
+  20% { transform: rotate(1deg); }
+  40% { transform: rotate(-1deg); }
+  60% { transform: rotate(1deg) scaleY(1.04); }
+  80% { transform: rotate(-2deg) scaleY(0.92); }
+  100% { transform: rotate(1deg); }
+}
+
+.flame {
+  animation: flicker 0.1s infinite;
+  transform-origin: bottom center;
+}
